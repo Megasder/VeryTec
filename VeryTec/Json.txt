@@ -1,0 +1,41 @@
+GET:
+
+localhost:8081/usuarioDni/12345678G
+
+POST:
+
+localhost:8081/usuarioAdd/
+
+"Seleccionar Body" + "raw" + "el texto azul click y seleccionar JSON"
+
+{
+    "dni": "12345678G",
+    "password": "123456789",
+    "rol": 2,
+    "descripcion": null,
+    "nombre": "test",
+    "apellidos": "test",
+    "telefono": 123456789,
+    "email": "test@gmail.com",
+    "direccion": null,
+    "numidentificacion": null,
+    "empresas": []
+}
+
+PUT:
+
+localhost:8081/usuarioUpdate/12345678G
+
+{
+    "dni": "12345678G",
+    "password": "123456789",
+    "rol": 2,
+    "descripcion": null,
+    "nombre": "test",
+    "apellidos": "test",
+    "telefono": 123456789,
+    "email": "test@gmail.com",
+    "direccion": null,
+    "numidentificacion": null,
+    "empresas": []
+}
